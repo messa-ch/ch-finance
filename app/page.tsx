@@ -1,41 +1,11 @@
 // app/page.tsx
+import PublicHeader from "@/components/PublicHeader";
 
 export default function HomePage() {
   return (
     <main className="page">
-      {/* ================= HEADER ================= */}
-      <header className="site-header">
-        <div className="container header-inner">
-          <div className="logo-area">
-            <a href="/">
-              <img
-                src="/img/CHFinance UK Logo.jpg"
-                alt="CHFinance logo"
-                className="logo-img"
-              />
-            </a>
-            <span className="logo-text">CHFINANCE</span>
-          </div>
-
-          <nav className="main-nav">
-            <a href="/" className="nav-link">
-              Home
-            </a>
-            <a href="/solutions" className="nav-link">
-              Solutions
-            </a>
-            <a href="/our-vision" className="nav-link">
-              Our Vision
-            </a>
-            <a href="/contact-us" className="nav-link">
-              Contact Us
-            </a>
-            <a href="/blog" className="nav-link">
-              Blog
-            </a>
-          </nav>
-        </div>
-      </header>
+      <PublicHeader />
+      
 
       {/* ================= HERO ================= */}
       <section className="hero">
