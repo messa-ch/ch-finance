@@ -278,6 +278,23 @@ a {
 }
 
 
+/* stack on smaller screens */
+@media (max-width: 900px) {
+  .hero {
+    height: auto;
+    padding: 60px 0 40px;
+  }
+
+  .hero-content {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-panel {
+    justify-content: flex-start;
+  }
+}
+
+
 /* ========= BUTTONS ========= */
 .btn {
   display: inline-flex;
