@@ -1,11 +1,11 @@
 // app/page.tsx
 import PublicHeader from "@/components/PublicHeader";
+import { OurServicesTabs } from "@/components/OurServicesTabs";
 
 export default function HomePage() {
   return (
     <main className="page">
       <PublicHeader />
-      
 
       {/* ================= HERO ================= */}
       <section className="hero">
@@ -62,6 +62,9 @@ export default function HomePage() {
           </p>
         </div>
       </section>
+
+      {/* ================= OUR SERVICES (TABS) ================= */}
+      <OurServicesTabs />
 
       {/* ================= TESTIMONIALS ================= */}
       <section className="section section-white">
@@ -251,19 +254,13 @@ export default function HomePage() {
             <div>
               <h3>LINKS</h3>
               <p>
-                <a href="/cookies-policy">
-                  Cookies Policy
-                </a>
+                <a href="/cookies-policy">Cookies Policy</a>
               </p>
               <p>
-                <a href="/privacy-policy">
-                  Our Privacy Policy
-                </a>
+                <a href="/privacy-policy">Our Privacy Policy</a>
               </p>
               <p>
-                <a href="/complaints-procedure">
-                  Complaints Procedure
-                </a>
+                <a href="/complaints-procedure">Complaints Procedure</a>
               </p>
             </div>
           </div>
