@@ -10,11 +10,52 @@ export default function HomePage() {
       <section className="hero">
         <div className="hero-overlay">
           <div className="container hero-content">
-            <h1 className="hero-title">CHFINANCE</h1>
-            <p className="hero-subtitle">Your One Stop Financial Solution</p>
-            <a href="#callback" className="btn btn-gold">
-              Get in Touch
-            </a>
+            {/* LEFT: main message */}
+            <div className="hero-main">
+              <p className="hero-eyebrow">Specialist finance broker</p>
+              <h1 className="hero-title">CHFINANCE</h1>
+              <p className="hero-subtitle">
+                Your one stop financial partner for secured loans, bridging and
+                business finance.
+              </p>
+
+              <ul className="hero-points">
+                <li>Whole-of-market access to carefully selected lenders</li>
+                <li>Tailored solutions for complex personal and business cases</li>
+                <li>Clear communication, transparent fees and ongoing support</li>
+              </ul>
+
+              <div className="hero-cta-row">
+                <a href="#callback" className="btn btn-gold">
+                  Request a call back
+                </a>
+                <a href="/solutions" className="btn btn-outline">
+                  View our solutions
+                </a>
+              </div>
+
+              <p className="hero-footnote">
+                FCA regulated via Clarke Hendrik Group Ltd. We&apos;re a credit broker,
+                not a lender.
+              </p>
+            </div>
+
+            {/* RIGHT: quick-help panel */}
+            <div className="hero-panel">
+              <div className="hero-panel-card">
+                <p className="hero-panel-label">What do you need help with?</p>
+                <button className="hero-panel-chip">
+                  Secured / second charge loan
+                </button>
+                <button className="hero-panel-chip">Bridging finance</button>
+                <button className="hero-panel-chip">
+                  Business &amp; asset finance
+                </button>
+                <button className="hero-panel-chip hero-panel-chip--outline">
+                  I&apos;m not sure – let&apos;s talk
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -27,9 +68,9 @@ export default function HomePage() {
               <div className="feature-icon">👤</div>
               <h3 className="feature-title">Experience</h3>
               <p className="feature-text">
-                Leveraging our team&apos;s expertise and extensive experience,
-                we deliver tailored financial solutions that best meet your
-                specific needs.
+                Leveraging our team&apos;s expertise and extensive experience, we
+                deliver tailored financial solutions that best meet your specific
+                needs.
               </p>
             </div>
 
@@ -37,9 +78,9 @@ export default function HomePage() {
               <div className="feature-icon">🌍</div>
               <h3 className="feature-title">Whole of Market</h3>
               <p className="feature-text">
-                Our collaborative approach with lenders and master brokers
-                spanning the entire market allows us to optimise cost savings
-                throughout your entire business process.
+                Our collaborative approach with lenders and master brokers spanning
+                the entire market allows us to optimise cost savings throughout your
+                entire business process.
               </p>
             </div>
 
@@ -47,8 +88,8 @@ export default function HomePage() {
               <div className="feature-icon">👍</div>
               <h3 className="feature-title">Solution</h3>
               <p className="feature-text">
-                Our services provide a flexible and dynamic approach to ensure
-                your business secures the most advantageous deal.
+                Our services provide a flexible and dynamic approach to ensure your
+                business secures the most advantageous deal.
               </p>
             </div>
           </div>
@@ -72,10 +113,9 @@ export default function HomePage() {
               <div className="stars">★★★★★</div>
               <h3 className="testimonial-title">Professional</h3>
               <p className="testimonial-text">
-                My experience with this company was absolutely helpful.
-                Characterises massive knowledge and professionalism. I was lucky
-                to get help from such a helpful company. It&apos;s saved my
-                life.
+                My experience with this company was absolutely helpful. Characterises
+                massive knowledge and professionalism. I was lucky to get help from
+                such a helpful company. It&apos;s saved my life.
               </p>
             </div>
 
@@ -83,8 +123,8 @@ export default function HomePage() {
               <div className="stars">★★★★★</div>
               <h3 className="testimonial-title">Brilliant</h3>
               <p className="testimonial-text">
-                Brilliant. So helpful from start to finish. Can&apos;t recommend
-                them highly enough.
+                Brilliant. So helpful from start to finish. Can&apos;t recommend them
+                highly enough.
               </p>
             </div>
 
@@ -92,8 +132,7 @@ export default function HomePage() {
               <div className="stars">★★★★★</div>
               <h3 className="testimonial-title">Absolutely Fantastic</h3>
               <p className="testimonial-text">
-                Absolutely fantastic, honest and friendly service. Recommended
-                highly.
+                Absolutely fantastic, honest and friendly service. Recommended highly.
               </p>
             </div>
 
@@ -101,8 +140,8 @@ export default function HomePage() {
               <div className="stars">★★★★★</div>
               <h3 className="testimonial-title">Excellent Service</h3>
               <p className="testimonial-text">
-                Excellent service, sorted out my problems straight away and I
-                would recommend this company to anyone.
+                Excellent service, sorted out my problems straight away and I would
+                recommend this company to anyone.
               </p>
             </div>
           </div>
@@ -115,14 +154,14 @@ export default function HomePage() {
           <div className="callback-text">
             <h2>Request a Call Back</h2>
             <p>
-              We prioritise your requirements and objectives as the cornerstone
-              of our business philosophy.
+              We prioritise your requirements and objectives as the cornerstone of our
+              business philosophy.
             </p>
             <p>
-              With our attentive approach, we actively listen and collaborate
-              with you to create an unmatched and unforgettable experience that
-              is precisely tailored to your needs, setting us apart in
-              delivering exceptional customer satisfaction.
+              With our attentive approach, we actively listen and collaborate with you
+              to create an unmatched and unforgettable experience that is precisely
+              tailored to your needs, setting us apart in delivering exceptional
+              customer satisfaction.
             </p>
           </div>
 
@@ -161,10 +200,10 @@ export default function HomePage() {
           <div className="moneyhelper-text">
             <h3>
               <strong>
-                The Money Helper is an impartial service set up by the
-                government to help people manage their money. To find out more
-                about free debt advice, debt counselling, debt adjustments, and
-                credit information services, visit{" "}
+                The Money Helper is an impartial service set up by the government to
+                help people manage their money. To find out more about free debt
+                advice, debt counselling, debt adjustments, and credit information
+                services, visit{" "}
                 <a href="https://www.moneyhelper.org.uk/en#">Money Helper</a>.
               </strong>
             </h3>
@@ -191,12 +230,11 @@ export default function HomePage() {
             <div>
               <h3>ABOUT</h3>
               <p>
-                CHFinance is a credit broker and not a direct lender. We aim to
-                offer our clients the best solutions and work closely with them
-                on their immediate financial needs and longer-term plans. Our
-                friendly brokers will get you the best possible lending terms
-                and work closely with you until you have received the funds
-                required.
+                CHFinance is a credit broker and not a direct lender. We aim to offer
+                our clients the best solutions and work closely with them on their
+                immediate financial needs and longer-term plans. Our friendly brokers
+                will get you the best possible lending terms and work closely with you
+                until you have received the funds required.
               </p>
             </div>
 
@@ -262,26 +300,25 @@ export default function HomePage() {
                 CHFinance is a credit broker, not a lender.
                 <br />
                 We work exclusively with a limited number of carefully selected
-                lenders. We receive a commission from the lenders we introduce
-                you to if you subsequently take out a loan with them.
+                lenders. We receive a commission from the lenders we introduce you to
+                if you subsequently take out a loan with them.
                 <br />
                 CHFinance is a trading name of CH Finance (UK) Limited.
                 <br />
-                CH Finance (UK) Limited is a limited company registered in
-                England and Wales, Registration number 10924999.
+                CH Finance (UK) Limited is a limited company registered in England and
+                Wales, Registration number 10924999.
                 <br />
-                Licensed by the Information Commissioner&apos;s Office under the
-                Data Protection Act, Registration Number ZA274068.
+                Licensed by the Information Commissioner&apos;s Office under the Data
+                Protection Act, Registration Number ZA274068.
                 <br />
                 CH Finance (UK) Limited is an Appointed Representative of Clarke
                 Hendrik Group Ltd. Our Firm Reference Number is 788035.
                 <br />
-                Clarke Hendrik Group Ltd is authorised and regulated by the
-                Financial Conduct Authority with Firm Reference Number 982714.
+                Clarke Hendrik Group Ltd is authorised and regulated by the Financial
+                Conduct Authority with Firm Reference Number 982714.
                 <br />
                 Please ensure you read our{" "}
-                <a href="/privacy-policy">Privacy Policy</a> before you contact
-                us.
+                <a href="/privacy-policy">Privacy Policy</a> before you contact us.
               </strong>
             </p>
           </div>
