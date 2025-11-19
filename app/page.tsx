@@ -251,17 +251,17 @@ export default function HomePage() {
             <div>
               <h3>LINKS</h3>
               <p>
-                <a href="/cookies-policy.html" target="_blank">
+                <a href="/cookies-policy">
                   Cookies Policy
                 </a>
               </p>
               <p>
-                <a href="/privacy-policy-.html" target="_blank">
+                <a href="/privacy-policy">
                   Our Privacy Policy
                 </a>
               </p>
               <p>
-                <a href="/complaints-procedure.html" target="_blank">
+                <a href="/complaints-procedure">
                   Complaints Procedure
                 </a>
               </p>
