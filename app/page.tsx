@@ -1,6 +1,5 @@
 // app/page.tsx
 import PublicHeader from "@/components/PublicHeader";
-import { OurServicesTabs } from "@/components/OurServicesTabs";
 
 export default function HomePage() {
   return (
@@ -62,9 +61,6 @@ export default function HomePage() {
           </p>
         </div>
       </section>
-
-      {/* ================= OUR SERVICES (TABS) ================= */}
-      <OurServicesTabs />
 
       {/* ================= TESTIMONIALS ================= */}
       <section className="section section-white">
@@ -141,7 +137,7 @@ export default function HomePage() {
               <input type="checkbox" required />{" "}
               <span>
                 Please tick to confirm you agree to our{" "}
-                <a href="/privacy-policy-.html">Privacy Policy</a>.
+                <a href="/privacy-policy">Privacy Policy</a>.
               </span>
             </label>
 
@@ -169,14 +165,7 @@ export default function HomePage() {
                 government to help people manage their money. To find out more
                 about free debt advice, debt counselling, debt adjustments, and
                 credit information services, visit{" "}
-                <a
-                  href="https://www.moneyhelper.org.uk/en#"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Money Helper
-                </a>
-                .
+                <a href="https://www.moneyhelper.org.uk/en#">Money Helper</a>.
               </strong>
             </h3>
           </div>
@@ -291,8 +280,8 @@ export default function HomePage() {
                 Financial Conduct Authority with Firm Reference Number 982714.
                 <br />
                 Please ensure you read our{" "}
-                <a href="/privacy-policy-.html">Privacy Policy</a> before you
-                contact us.
+                <a href="/privacy-policy">Privacy Policy</a> before you contact
+                us.
               </strong>
             </p>
           </div>
