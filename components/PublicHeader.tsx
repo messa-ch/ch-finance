@@ -17,7 +17,6 @@ export default function PublicHeader() {
               className="logo-img"
             />
           </Link>
-          <span className="logo-text">CHFINANCE</span>
         </div>
 
         {/* Main nav */}

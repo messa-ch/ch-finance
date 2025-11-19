@@ -36,11 +36,12 @@ a {
 
 /* ===== HEADER ===== */
 .site-header {
-  background-color: #004480;
-  color: #ffffff;
+  background-color: #ffffff;   /* WHITE header */
+  color: #004480;              /* CH blue text */
   position: sticky;
   top: 0;
   z-index: 20;
+  border-bottom: 1px solid #e2e8f0; /* subtle divider (optional) */
 }
 
 .header-inner {
@@ -66,6 +67,7 @@ a {
   font-weight: 900;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  color: #004480;              /* ensure logo text is blue */
 }
 
 .main-nav {
@@ -77,12 +79,13 @@ a {
 }
 
 .nav-link {
-  color: #fefefe;
+  color: #004480;              /* blue links on white background */
 }
 
 .nav-link:hover {
-  color: #eaeaea;
+  color: #002b4f;              /* darker blue on hover */
 }
+
 
 /* ===== HERO ===== */
 .hero {
